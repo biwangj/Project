@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="Flight_Schedle_root" prefHeight="337.0" prefWidth="600" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.FlightSchedle">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="613.0" layoutX="-1.0" pickOnBounds="true">
+         <image>
+            <Image url="@../img/white-toy-airplane-yellow-background-with-copy-space_68196-1367.jpg" />
+         </image>
+      </ImageView>
+      <ScrollPane layoutX="29.0" layoutY="63.0" prefHeight="230.0" prefWidth="543.0">
+         <content>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="332.0" prefWidth="542.0">
+               <children>
+                  <AnchorPane layoutX="8.0" layoutY="6.0" minHeight="0.0" minWidth="0.0" prefHeight="265.0" prefWidth="526.0">
+                     <children>
+                        <Label layoutX="40.0" layoutY="23.0" text="Flight Name" AnchorPane.bottomAnchor="217.0" AnchorPane.topAnchor="20.0">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                           <padding>
+                              <Insets bottom="1.0" />
+                           </padding>
+                        </Label>
+                        <Label layoutX="151.0" layoutY="24.0" text="Flight Number">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="273.0" layoutY="24.0" text="Date">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="348.0" layoutY="24.0" text="Time">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="434.0" layoutY="24.0" text="Status">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <Text fx:id="flightName" layoutX="46.0" layoutY="81.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Philippine Airlines" wrappingWidth="85.13671875" AnchorPane.topAnchor="75.0" />
+                        <Text fx:id="number" layoutX="156.0" layoutY="81.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PR847" wrappingWidth="85.13671875" AnchorPane.topAnchor="75.0" />
+                        <Text fx:id="date" layoutX="261.0" layoutY="80.0" strokeType="OUTSIDE" strokeWidth="0.0" text="02/08/2021" wrappingWidth="85.13671875" AnchorPane.topAnchor="75.0" />
+                        <Text fx:id="time" layoutX="338.0" layoutY="80.0" strokeType="OUTSIDE" strokeWidth="0.0" text="10:00" wrappingWidth="85.13671875" AnchorPane.topAnchor="75.0" />
+                        <Text fx:id="status" layoutX="426.0" layoutY="80.0" strokeType="OUTSIDE" strokeWidth="0.0" text="IN TIME" wrappingWidth="75.13671875" AnchorPane.topAnchor="75.0" />
+                        <Text fx:id="flightName1" layoutX="46.0" layoutY="120.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cebu Pacific" wrappingWidth="85.13671875" AnchorPane.topAnchor="115.0" />
+                        <Text fx:id="number1" layoutX="156.0" layoutY="120.0" strokeType="OUTSIDE" strokeWidth="0.0" text="5J577" wrappingWidth="85.13671875" AnchorPane.topAnchor="115.0" />
+                        <Text fx:id="date1" layoutX="261.0" layoutY="120.0" strokeType="OUTSIDE" strokeWidth="0.0" text="02/01/2021" wrappingWidth="85.13671875" AnchorPane.topAnchor="115.0" />
+                        <Text fx:id="time1" layoutX="338.0" layoutY="120.0" strokeType="OUTSIDE" strokeWidth="0.0" text="16:00" wrappingWidth="85.13671875" AnchorPane.topAnchor="115.0" />
+                        <Text fx:id="status1" layoutX="426.0" layoutY="120.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DELAY" wrappingWidth="75.13671875" AnchorPane.topAnchor="115.0" />
+                        <Text fx:id="status11" layoutX="426.0" layoutY="155.0" strokeType="OUTSIDE" strokeWidth="0.0" text="IN TIME" wrappingWidth="75.13671875" AnchorPane.topAnchor="161.0" />
+                        <Text fx:id="flightName11" layoutX="46.0" layoutY="155.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Air Asia" wrappingWidth="85.13671875" AnchorPane.topAnchor="161.0" />
+                        <Text fx:id="number11" layoutX="156.0" layoutY="155.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Z2676" wrappingWidth="85.13671875" AnchorPane.topAnchor="161.0" />
+                        <Text fx:id="date11" layoutX="261.0" layoutY="155.0" strokeType="OUTSIDE" strokeWidth="0.0" text="02/22/2021" wrappingWidth="85.13671875" AnchorPane.topAnchor="161.0" />
+                        <Text fx:id="time11" layoutX="338.0" layoutY="155.0" strokeType="OUTSIDE" strokeWidth="0.0" text="03:00" wrappingWidth="85.13671875" AnchorPane.topAnchor="161.0" />
+                        <Text fx:id="status111" layoutX="426.0" layoutY="194.0" strokeType="OUTSIDE" strokeWidth="0.0" text="IN TIME" wrappingWidth="75.13671875" AnchorPane.topAnchor="200.0" />
+                        <Text fx:id="time111" layoutX="338.0" layoutY="194.0" strokeType="OUTSIDE" strokeWidth="0.0" text="13:30" wrappingWidth="85.13671875" AnchorPane.topAnchor="200.0" />
+                        <Text fx:id="date111" layoutX="261.0" layoutY="194.0" strokeType="OUTSIDE" strokeWidth="0.0" text="03/01/2021" wrappingWidth="85.13671875" AnchorPane.topAnchor="200.0" />
+                        <Text fx:id="number111" layoutX="151.0" layoutY="194.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2P022" wrappingWidth="85.13671875" AnchorPane.topAnchor="200.0" />
+                        <Text fx:id="flightName111" layoutX="38.0" layoutY="194.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PAL Express" wrappingWidth="85.13671875" AnchorPane.topAnchor="200.0" />
+                        <Text fx:id="status1111" layoutX="426.0" layoutY="229.0" strokeType="OUTSIDE" strokeWidth="0.0" text="IN TIME" wrappingWidth="75.13671875" AnchorPane.topAnchor="235.0" />
+                        <Text fx:id="time1111" layoutX="338.0" layoutY="229.0" strokeType="OUTSIDE" strokeWidth="0.0" text="09:45" wrappingWidth="85.13671875" AnchorPane.topAnchor="235.0" />
+                        <Text fx:id="date1111" layoutX="261.0" layoutY="229.0" strokeType="OUTSIDE" strokeWidth="0.0" text="03/17/2021" wrappingWidth="85.13671875" AnchorPane.topAnchor="235.0" />
+                        <Text fx:id="number1111" layoutX="151.0" layoutY="229.0" strokeType="OUTSIDE" strokeWidth="0.0" text="5J102" wrappingWidth="85.13671875" AnchorPane.topAnchor="235.0" />
+                        <JFXButton fx:id="Edit_Button" buttonType="RAISED" layoutX="395.0" layoutY="214.0" onAction="#seat_select" prefHeight="43.0" prefWidth="110.0" style="-fx-background-color: #9E9E9E;" text="SUBMIT" AnchorPane.bottomAnchor="-52.0" AnchorPane.leftAnchor="378.0" AnchorPane.rightAnchor="46.0" AnchorPane.topAnchor="281.0">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </JFXButton>
+                        <Text fx:id="flightName1111" layoutX="38.0" layoutY="229.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cebu Pacific" wrappingWidth="85.13671875" AnchorPane.topAnchor="235.0" />
+                        <JFXCheckBox layoutX="3.0" layoutY="75.0" text=" " />
+                        <JFXCheckBox fx:id="dis" layoutX="3.0" layoutY="114.0" text=" " />
+                        <JFXCheckBox layoutX="3.0" layoutY="161.0" text=" " />
+                        <JFXCheckBox layoutX="3.0" layoutY="200.0" text=" " />
+                        <JFXCheckBox layoutX="3.0" layoutY="235.0" text=" " />
+                     </children>
+                  </AnchorPane>
+               </children>
+            </AnchorPane>
+         </content>
+      </ScrollPane>
+      <HBox layoutX="55.0" layoutY="10.0" prefHeight="52.0" prefWidth="487.0" />
+   </children>
+</AnchorPane>

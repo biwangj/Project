@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="Seat_Booking_root" prefHeight="400.0" prefWidth="499.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Seat_Booking">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="601.0" pickOnBounds="true">
+         <image>
+            <Image url="@../img/white-toy-airplane-yellow-background-with-copy-space_68196-1367.jpg" />
+         </image>
+      </ImageView>
+      <ScrollPane layoutX="52.0" layoutY="32.0" prefHeight="269.0" prefWidth="497.0">
+         <content>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="400.0" prefWidth="498.0">
+               <children>
+                  <ImageView fitHeight="570.0" fitWidth="405.0" layoutX="-106.0" layoutY="-105.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@../img/plane.png" />
+                     </image>
+                  </ImageView>
+                  <CheckBox fx:id="b15" layoutX="94.0" layoutY="229.0" mnemonicParsing="false" onAction="#bx40" prefHeight="12.0" prefWidth="19.0" />
+                  <CheckBox fx:id="f12" layoutX="232.0" layoutY="212.0" mnemonicParsing="false" onAction="#bx39" prefHeight="12.0" prefWidth="19.0" />
+                  <CheckBox fx:id="a12" layoutX="64.0" layoutY="213.0" mnemonicParsing="false" onAction="#bx37" prefHeight="12.0" prefWidth="19.0" />
+                  <CheckBox fx:id="f6" layoutX="231.0" layoutY="119.0" mnemonicParsing="false" onAction="#bx13" prefHeight="12.0" prefWidth="19.0" />
+                  <CheckBox fx:id="d10" layoutX="175.0" layoutY="181.0" mnemonicParsing="false" onAction="#bx30" prefHeight="12.0" prefWidth="19.0" />
+                  <CheckBox fx:id="c16" layoutX="122.0" layoutY="245.0" mnemonicParsing="false" onAction="#bx46" prefHeight="12.0" prefWidth="19.0" rotate="-16.0">
+                     <rotationAxis>
+                        <Point3D />
+                     </rotationAxis>
+                  </CheckBox>
+                    <CheckBox fx:id="e15" layoutX="204.0" layoutY="228.0" mnemonicParsing="false" onAction="#bx43" prefHeight="12.0" prefWidth="19.0" rotate="-16.0">
+                     <rotationAxis>
+                        <Point3D />
+                     </rotationAxis>
+                  </CheckBox>
+                  <CheckBox fx:id="f3" layoutX="203.0" layoutY="71.0" mnemonicParsing="false" onAction="#bx8" prefHeight="12.0" prefWidth="19.0" rotate="-14.0">
+                     <rotationAxis>
+                        <Point3D />
+                     </rotationAxis>
+                  </CheckBox>
+                  <CheckBox fx:id="a2" layoutX="93.0" layoutY="56.0" mnemonicParsing="false" onAction="#bx3" prefHeight="12.0" prefWidth="19.0" rotate="15.0">
+                     <rotationAxis>
+                        <Point3D />
+                     </rotationAxis>
+                  </CheckBox>
+                  <CheckBox id="c1" fx:id="b6" layoutX="94.0" layoutY="118.0" mnemonicParsing="false" onAction="#bx10" prefHeight="12.0" prefWidth="19.0" />
+                  <CheckBox id="c2" fx:id="c21" layoutX="121.0" layoutY="321.0" mnemonicParsing="false" onAction="#bx65" prefHeight="12.0" prefWidth="19.0" />
+                  <CheckBox id="c3" fx:id="e19" layoutX="203.0" layoutY="291.0" mnemonicParsing="false" onAction="#bx58" prefHeight="12.0" prefWidth="19.0" />
+                  <CheckBox id="c4" fx:id="d2" layoutX="174.0" layoutY="55.0" mnemonicParsing="false" onAction="#bx5" prefHeight="12.0" prefWidth="19.0" />
+                  <CheckBox id="c5" fx:id="f9" layoutX="232.0" layoutY="166.0" mnemonicParsing="false" onAction="#bx26" prefHeight="12.0" prefWidth="19.0" />
+                  <CheckBox id="c6" fx:id="a8" layoutX="65.0" layoutY="150.0" mnemonicParsing="false" onAction="#bx19" prefHeight="12.0" prefWidth="19.0" />
+                  <CheckBox id="c7" fx:id="c11" layoutX="123.0" layoutY="197.0" mnemonicParsing="false" onAction="#bx34" prefHeight="12.0" prefWidth="19.0" />
+                  <CheckBox id="c8" fx:id="e22" layoutX="203.0" layoutY="338.0" mnemonicParsing="false" onAction="#bx69" prefHeight="12.0" prefWidth="19.0" />
+                  <CheckBox id="c9" fx:id="e6" layoutX="204.0" layoutY="119.0" mnemonicParsing="false" onAction="#bx12" prefHeight="12.0" prefWidth="19.0" />
+                  <CheckBox id="d1" fx:id="a10" layoutX="65.0" layoutY="181.0" mnemonicParsing="false" onAction="#bx27" prefHeight="12.0" prefWidth="19.0" />
+                  <CheckBox id="d2" fx:id="b19" layoutX="94.0" layoutY="291.0" mnemonicParsing="false" onAction="#bx57" prefHeight="12.0" prefWidth="19.0" />
+                  <CheckBox id="d3" fx:id="d22" layoutX="174.0" layoutY="338.0" mnemonicParsing="false" onAction="#bx68" prefHeight="12.0" prefWidth="19.0" />
+                  <CheckBox id="d4" fx:id="d15" layoutX="175.0" layoutY="228.0" mnemonicParsing="false" onAction="#bx42" prefHeight="12.0" prefWidth="19.0" />
+                  <CheckBox id="d5" fx:id="d17" layoutX="175.0" layoutY="259.0" mnemonicParsing="false" onAction="#bx51" prefHeight="12.0" prefWidth="19.0" />
+                  <CheckBox id="d6" fx:id="f21" layoutX="232.0" layoutY="322.0" mnemonicParsing="false" onAction="#bx67" prefHeight="12.0" prefWidth="19.0" />
+                  <CheckBox id="d7" fx:id="e10" layoutX="204.0" layoutY="182.0" mnemonicParsing="false" onAction="#bx31" prefHeight="12.0" prefWidth="19.0" />
+                  <CheckBox id="d8" fx:id="d8" layoutX="175.0" layoutY="150.0" mnemonicParsing="false" onAction="#bx21" prefHeight="12.0" prefWidth="19.0" />
+                  <CheckBox id="d9" fx:id="f16" layoutX="232.0" layoutY="244.0" mnemonicParsing="false" onAction="#bx48" prefHeight="12.0" prefWidth="19.0" />
+                  <CheckBox id="e1" fx:id="b17" layoutX="93.0" layoutY="259.0" mnemonicParsing="false" onAction="#bx50" prefHeight="12.0" prefWidth="19.0" />
+                  <CheckBox id="e2" fx:id="b7" layoutX="93.0" layoutY="134.0" mnemonicParsing="false" onAction="#bx14" prefHeight="12.0" prefWidth="19.0" />
+                  <CheckBox id="e3" fx:id="b9" layoutX="94.0" layoutY="166.0" mnemonicParsing="false" onAction="#bx22" prefHeight="12.0" prefWidth="19.0" />
+                  <CheckBox id="e4" fx:id="a17" layoutX="64.0" layoutY="259.0" mnemonicParsing="false" onAction="#bx49" prefHeight="12.0" prefWidth="19.0" />
+                  <CheckBox id="e5" fx:id="d20" layoutX="175.0" layoutY="307.0" mnemonicParsing="false" onAction="#bx61" prefHeight="12.0" prefWidth="19.0" />
+                  <CheckBox id="e6" fx:id="c6" layoutX="122.0" layoutY="118.0" mnemonicParsing="false" onAction="#bx11" prefHeight="12.0" prefWidth="19.0" />
+                  <CheckBox id="e7" fx:id="a6" layoutX="65.0" layoutY="119.0" mnemonicParsing="false" onAction="#bx9" prefHeight="0.0" prefWidth="17.0" />
+                  <Pane layoutX="305.0" layoutY="45.0" prefHeight="22.0" prefWidth="21.0" style="-fx-background-color: E7E7E7;" />
+                  <Pane layoutX="305.0" layoutY="74.0" prefHeight="22.0" prefWidth="21.0" style="-fx-background-color: D6D600;" />
+                  <Pane layoutX="90.0" layoutY="40.0" prefHeight="14.0" prefWidth="24.0" style="-fx-background-color: D6D600;" />
+                  <Pane layoutX="120.0" layoutY="72.0" prefHeight="14.0" prefWidth="23.0" style="-fx-background-color: D6D600;" />
+                  <Text layoutX="336.0" layoutY="61.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Avaliable Seat" />
+                  <Text layoutX="334.0" layoutY="90.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Occupied Seat" />
+                  <JFXButton fx:id="Choose_button" buttonType="RAISED" layoutX="327.0" layoutY="229.0" onAction="#seat_choose_method" prefHeight="35.0" prefWidth="91.0" ripplerFill="RED" style="-fx-background-color: #9E9E9E;" text="DONE" textFill="#0b0728">
+                     <font>
+                        <Font name="System Bold" size="13.0" />
+                     </font>
+                  </JFXButton>
+                  <CheckBox fx:id="c1" layoutX="123.0" layoutY="39.0" mnemonicParsing="false" onAction="#bx1" />
+                  <CheckBox fx:id="c2" layoutX="122.0" layoutY="56.0" mnemonicParsing="false" onAction="#bx4" />
+                  <CheckBox fx:id="a3" layoutX="94.0" layoutY="74.0" mnemonicParsing="false" onAction="#bx6" />
+                  <CheckBox fx:id="d1" layoutX="175.0" layoutY="39.0" mnemonicParsing="false" onAction="#bx2" />
+                  <CheckBox fx:id="d3" layoutX="175.0" layoutY="71.0" mnemonicParsing="false" onAction="#bx7" />
+                  <Pane layoutX="198.0" layoutY="42.0" prefHeight="14.0" prefWidth="23.0" style="-fx-background-color: D6D600;" />
+                  <Pane layoutX="198.0" layoutY="56.0" prefHeight="14.0" prefWidth="23.0" style="-fx-background-color: D6D600;" />
+                  <Pane layoutX="118.0" layoutY="151.0" prefHeight="14.0" prefWidth="23.0" style="-fx-background-color: D6D600;" />
+                  <Pane layoutX="61.0" layoutY="135.0" prefHeight="14.0" prefWidth="23.0" style="-fx-background-color: D6D600;" />
+                  <Pane layoutX="62.0" layoutY="167.0" prefHeight="14.0" prefWidth="23.0" style="-fx-background-color: D6D600;" />
+                  <Pane layoutX="118.0" layoutY="213.0" prefHeight="14.0" prefWidth="23.0" style="-fx-background-color: D6D600;" />
+                  <Pane layoutX="90.0" layoutY="214.0" prefHeight="14.0" prefWidth="23.0" style="-fx-background-color: D6D600;" />
+                  <Pane layoutX="171.0" layoutY="120.0" prefHeight="14.0" prefWidth="23.0" style="-fx-background-color: D6D600;" />
+                  <Pane layoutX="229.0" layoutY="151.0" prefHeight="14.0" prefWidth="23.0" style="-fx-background-color: D6D600;" />
+                  <Pane layoutX="229.0" layoutY="230.0" prefHeight="14.0" prefWidth="23.0" style="-fx-background-color: D6D600;" />
+                  <CheckBox fx:id="d7" layoutX="173.0" layoutY="134.0" mnemonicParsing="false" onAction="#bx16" />
+                  <CheckBox fx:id="e7" layoutX="204.0" layoutY="134.0" mnemonicParsing="false" onAction="#bx17" />
+                  <CheckBox fx:id="f7" layoutX="229.0" layoutY="134.0" mnemonicParsing="false" onAction="#bx18" />
+                  <Pane layoutX="198.0" layoutY="151.0" prefHeight="14.0" prefWidth="23.0" style="-fx-background-color: D6D600;" />
+                  <Pane layoutX="229.0" layoutY="198.0" prefHeight="14.0" prefWidth="23.0" style="-fx-background-color: D6D600;">
+                     <children>
+                        <CheckBox fx:id="e11" layoutX="-25.0" layoutY="-1.0" mnemonicParsing="false" onAction="#bx36" />
+                     </children>
+                  </Pane>
+                  <CheckBox fx:id="d11" layoutX="173.0" layoutY="197.0" mnemonicParsing="false" onAction="#bx35" />
+                  <Pane layoutX="171.0" layoutY="214.0" prefHeight="14.0" prefWidth="23.0" style="-fx-background-color: D6D600;" />
+                  <CheckBox fx:id="c7" layoutX="121.0" layoutY="134.0" mnemonicParsing="false" onAction="#bx15" />
+                  <CheckBox fx:id="e12" layoutX="205.0" layoutY="213.0" mnemonicParsing="false" onAction="#bx38" />
+                  <Pane layoutX="61.0" layoutY="230.0" prefHeight="14.0" prefWidth="23.0" style="-fx-background-color: D6D600;" />
+                  <Pane layoutX="117.0" layoutY="292.0" prefHeight="14.0" prefWidth="23.0" style="-fx-background-color: D6D600;" />
+                  <Pane layoutX="201.0" layoutY="246.0" prefHeight="14.0" prefWidth="23.0" style="-fx-background-color: D6D600;">
+                     <children>
+                        <CheckBox fx:id="d16" layoutX="-25.0" layoutY="-1.0" mnemonicParsing="false" onAction="#bx47" />
+                     </children>
+                  </Pane>
+                  <Pane layoutX="201.0" layoutY="260.0" prefHeight="14.0" prefWidth="23.0" style="-fx-background-color: D6D600;" />
+                  <CheckBox fx:id="a16" layoutX="66.0" layoutY="244.0" mnemonicParsing="false" onAction="#bx44" />
+                  <CheckBox fx:id="c9" layoutX="123.0" layoutY="166.0" mnemonicParsing="false" onAction="#bx23" />
+                  <CheckBox fx:id="b10" layoutX="94.0" layoutY="181.0" mnemonicParsing="false" onAction="#bx28" />
+                  <CheckBox fx:id="c10" layoutX="120.0" layoutY="182.0" mnemonicParsing="false" onAction="#bx29" />
+                  <CheckBox fx:id="b11" layoutX="93.0" layoutY="197.0" mnemonicParsing="false" onAction="#bx33" />
+                  <CheckBox fx:id="c15" layoutX="120.0" layoutY="228.0" mnemonicParsing="false" onAction="#bx41" />
+                  <CheckBox fx:id="d9" layoutX="173.0" layoutY="166.0" mnemonicParsing="false" onAction="#bx24" />
+                  <CheckBox fx:id="f10" layoutX="231.0" layoutY="181.0" mnemonicParsing="false" onAction="#bx32" />
+                  <Pane layoutX="61.0" layoutY="308.0" prefHeight="14.0" prefWidth="23.0" style="-fx-background-color: D6D600;" />
+                  <Pane layoutX="90.0" layoutY="339.0" prefHeight="14.0" prefWidth="23.0" style="-fx-background-color: D6D600;" />
+                  <Pane layoutX="120.0" layoutY="339.0" prefHeight="14.0" prefWidth="23.0" style="-fx-background-color: D6D600;" />
+                  <Pane layoutX="63.0" layoutY="339.0" prefHeight="14.0" prefWidth="23.0" style="-fx-background-color: D6D600;" />
+                  <Pane layoutX="227.0" layoutY="339.0" prefHeight="14.0" prefWidth="23.0" style="-fx-background-color: D6D600;" />
+                  <Pane layoutX="172.0" layoutY="292.0" prefHeight="14.0" prefWidth="23.0" style="-fx-background-color: D6D600;" />
+                  <Pane layoutX="227.0" layoutY="292.0" prefHeight="14.0" prefWidth="23.0" style="-fx-background-color: D6D600;" />
+                  <Pane layoutX="172.0" layoutY="323.0" prefHeight="14.0" prefWidth="23.0" style="-fx-background-color: D6D600;" />
+                  <Pane layoutX="169.0" layoutY="356.0" prefHeight="14.0" prefWidth="23.0" style="-fx-background-color: D6D600;" />
+                  <Pane layoutX="200.0" layoutY="356.0" prefHeight="14.0" prefWidth="23.0" style="-fx-background-color: D6D600;" />
+                  <Pane layoutX="229.0" layoutY="356.0" prefHeight="14.0" prefWidth="23.0" style="-fx-background-color: D6D600;" />
+                  <Pane layoutX="62.0" layoutY="356.0" prefHeight="14.0" prefWidth="23.0" style="-fx-background-color: D6D600;" />
+                  <Pane layoutX="63.0" layoutY="198.0" prefHeight="14.0" prefWidth="23.0" style="-fx-background-color: D6D600;" />
+                  <Pane layoutX="89.0" layoutY="356.0" prefHeight="14.0" prefWidth="23.0" style="-fx-background-color: D6D600;" />
+                  <Pane layoutX="119.0" layoutY="356.0" prefHeight="14.0" prefWidth="23.0" style="-fx-background-color: D6D600;" />
+                  <CheckBox fx:id="a24" layoutX="64.0" layoutY="370.0" mnemonicParsing="false" onAction="#bx70" />
+                  <CheckBox fx:id="b24" layoutX="92.0" layoutY="370.0" mnemonicParsing="false" onAction="#bx71" />
+                  <CheckBox fx:id="c24" layoutX="122.0" layoutY="370.0" mnemonicParsing="false" onAction="#bx72" />
+                  <Pane layoutX="62.0" layoutY="393.0" prefHeight="14.0" prefWidth="23.0" style="-fx-background-color: D6D600;" />
+                  <Pane layoutX="92.0" layoutY="392.0" prefHeight="14.0" prefWidth="23.0" style="-fx-background-color: D6D600;" />
+                  <Pane layoutX="119.0" layoutY="392.0" prefHeight="14.0" prefWidth="23.0" style="-fx-background-color: D6D600;" />
+                  <Pane layoutX="172.0" layoutY="371.0" prefHeight="14.0" prefWidth="23.0" style="-fx-background-color: D6D600;" />
+                  <Pane layoutX="202.0" layoutY="371.0" prefHeight="14.0" prefWidth="23.0" style="-fx-background-color: D6D600;" />
+                  <CheckBox fx:id="f24" layoutX="229.0" layoutY="370.0" mnemonicParsing="false" onAction="#bx73" />
+                  <Pane layoutX="172.0" layoutY="386.0" prefHeight="14.0" prefWidth="23.0" style="-fx-background-color: D6D600;" />
+                  <Pane layoutX="201.0" layoutY="386.0" prefHeight="14.0" prefWidth="23.0" style="-fx-background-color: D6D600;" />
+                  <Pane layoutX="227.0" layoutY="386.0" prefHeight="14.0" prefWidth="23.0" style="-fx-background-color: D6D600;" />
+                  <Pane layoutX="91.0" layoutY="274.0" prefHeight="14.0" prefWidth="23.0" style="-fx-background-color: D6D600;" />
+                  <CheckBox fx:id="b16" layoutX="92.0" layoutY="244.0" mnemonicParsing="false" onAction="#bx45" />
+                  <CheckBox fx:id="a19" layoutX="64.0" layoutY="291.0" mnemonicParsing="false" onAction="#bx56" />
+                  <Pane layoutX="62.0" layoutY="274.0" prefHeight="14.0" prefWidth="23.0" style="-fx-background-color: D6D600;" />
+                  <CheckBox fx:id="c18" layoutX="121.0" layoutY="273.0" mnemonicParsing="false" onAction="#bx53" />
+                  <CheckBox fx:id="f17" layoutX="232.0" layoutY="259.0" mnemonicParsing="false" onAction="#bx52" />
+                  <CheckBox fx:id="b20" layoutX="92.0" layoutY="307.0" mnemonicParsing="false" onAction="#bx59" />
+                  <CheckBox fx:id="a21" layoutX="64.0" layoutY="322.0" mnemonicParsing="false" onAction="#bx63" />
+                  <CheckBox fx:id="e18" layoutX="201.0" layoutY="273.0" mnemonicParsing="false" onAction="#bx54" />
+                  <CheckBox fx:id="f18" layoutX="233.0" layoutY="273.0" mnemonicParsing="false" onAction="#bx55" />
+                  <Pane layoutX="171.0" layoutY="274.0" prefHeight="14.0" prefWidth="23.0" style="-fx-background-color: D6D600;" />
+                  <Pane layoutX="200.0" layoutY="308.0" prefHeight="14.0" prefWidth="23.0" style="-fx-background-color: D6D600;" />
+                  <CheckBox fx:id="f20" layoutX="232.0" layoutY="307.0" mnemonicParsing="false" onAction="#bx62" />
+                  <CheckBox fx:id="c20" layoutX="120.0" layoutY="307.0" mnemonicParsing="false" onAction="#bx60" />
+                  <CheckBox fx:id="b21" layoutX="92.0" layoutY="322.0" mnemonicParsing="false" onAction="#bx64" />
+                  <CheckBox fx:id="e9" layoutX="202.0" layoutY="166.0" mnemonicParsing="false" onAction="#bx25" />
+                  <Pane layoutX="119.0" layoutY="260.0" prefHeight="14.0" prefWidth="23.0" style="-fx-background-color: D6D600;" />
+                  <CheckBox fx:id="e21" layoutX="203.0" layoutY="322.0" mnemonicParsing="false" onAction="#bx66" />
+                  <Pane layoutX="305.0" layoutY="125.0" prefHeight="22.0" prefWidth="21.0" style="-fx-background-color: blue;" />
+                  <Pane layoutX="305.0" layoutY="156.0" prefHeight="22.0" prefWidth="21.0" style="-fx-background-color: ADD8E6;" />
+                  <Text layoutX="334.0" layoutY="139.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Business Class (P 700)" wrappingWidth="124.830078125" />
+                  <Text layoutX="333.0" layoutY="170.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ecomomy Class (P 200)" wrappingWidth="126.830078125" />
+                  <JFXButton fx:id="Choose_back_button" buttonType="RAISED" layoutX="327.0" layoutY="282.0" onAction="#Choose_back_button" prefHeight="35.0" prefWidth="91.0" ripplerFill="RED" style="-fx-background-color: #9E9E9E;" text="BACK" textFill="#0b0728">
+                     <font>
+                        <Font name="System Bold" size="13.0" />
+                     </font>
+                  </JFXButton>
+                  <CheckBox fx:id="b8" layoutX="92.0" layoutY="150.0" mnemonicParsing="false" onAction="#bx20" />
+               </children>
+            </AnchorPane>
+         </content></ScrollPane>
+   </children>
+</AnchorPane>
